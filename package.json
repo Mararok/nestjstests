@@ -1,0 +1,14 @@
+{
+  "name": "nestjstests",
+  "description": "",
+  "author": "Andrzej Wasiak <mararok@gmail.com>",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "services/*",
+    "libs/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  }
+}

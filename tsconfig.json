@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "removeComments": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "module": "commonjs",
+    "strict": true,
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "allowJs": false,
+    "isolatedModules": true,
+    "types": ["express", "jest"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es6"],
+    "baseUrl": ".",
+    "paths": {
+      "@nestjstests/*": ["libs/*/src"]
+    }
+  },
+  "exclude": ["node_modules", "./dist"],
+  "typedocOptions": {
+    "mode": "file",
+    "out": "./docs",
+    "excludeNotExported": true,
+    "excludePrivate": true,
+    "hideGenerator": true
+  }
+}
